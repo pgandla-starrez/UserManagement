@@ -92,54 +92,6 @@ By the end of the session, you should have created:
 * Building a complete application or UI around it
 * Perfecting every single line if it means not addressing the major structural and security issues
 
-## 8. Evaluation Criteria for Interviewers
-
-### Code Smell Identification (20 points)
-- **Excellent (18-20):** Identifies all major issues including SRP violations, tight coupling, security vulnerabilities, poor naming, magic strings, and lack of testability
-- **Good (14-17):** Identifies most structural issues and at least one security concern
-- **Fair (10-13):** Identifies basic structural problems but misses security issues
-- **Poor (0-9):** Fails to identify key problems or focuses only on minor issues
-
-### Security Awareness (20 points)
-- **Excellent (18-20):** Addresses MD5 vulnerability, implements proper password hashing (bcrypt/Argon2), improves input validation, addresses file handling security
-- **Good (14-17):** Identifies and fixes password hashing issue, addresses some other security concerns
-- **Fair (10-13):** Recognizes security issues but provides incomplete solutions
-- **Poor (0-9):** Ignores or fails to identify critical security vulnerabilities
-
-### SOLID Principles Application (25 points)
-- **Excellent (23-25):** Clearly separates responsibilities, uses dependency injection, creates appropriate interfaces, demonstrates strong OOP design
-- **Good (18-22):** Good separation of concerns with some dependency injection
-- **Fair (13-17):** Basic separation but still some mixed responsibilities
-- **Poor (0-12):** Minimal improvement in class structure
-
-### Code Quality & Modern PHP Practices (15 points)
-- **Excellent (14-15):** Uses modern PHP features, follows PSR standards, excellent naming conventions, proper error handling
-- **Good (11-13):** Good naming and structure, some modern PHP features
-- **Fair (8-10):** Improved naming but limited use of modern practices
-- **Poor (0-7):** Poor naming conventions, outdated PHP practices
-
-### Testability & Testing (20 points)
-- **Excellent (18-20):** Creates testable design with interfaces, writes comprehensive unit tests, demonstrates mocking understanding
-- **Good (14-17):** Creates testable design and writes basic unit tests
-- **Fair (10-13):** Understands testing concepts but limited implementation
-- **Poor (0-9):** No consideration for testing or fails to write tests
-
-### Overall Score Interpretation:
-- **90-100:** Exceptional senior-level performance
-- **75-89:** Strong senior-level performance
-- **60-74:** Adequate senior-level performance with some gaps
-- **Below 60:** Does not meet senior-level expectations
-
-### Red Flags for Interviewers:
-- Ignoring security vulnerabilities (especially password hashing)
-- No understanding of dependency injection
-- Cannot explain SOLID principles
-- No consideration for testing
-- Overly complex solutions that don't address core problems
-- Cannot articulate design decisions
-
 ---
 
-**For Candidates:** During the session, please explain your thought process as you refactor. Focus on the "why" behind your decisions, not just the "what."
-
-**For Interviewers:** Pay attention to the candidate's problem-solving approach, communication skills, and ability to prioritize improvements. The quality of their reasoning is often more important than perfect implementation.
+During the session, please explain your thought process as you refactor. Focus on the "why" behind your decisions, not just the "what." Good Luck!
