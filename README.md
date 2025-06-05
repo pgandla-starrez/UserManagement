@@ -2,7 +2,7 @@
 
 ## 1. Goal
 
-In this 30-40 minute live coding session, you will be presented with a single PHP class (provided in a separate file, typically `UserManager.php` or similar) responsible for user registration and sending notifications. This class has several "code smells" and does not follow modern development best practices.
+In this live coding session, you will refactor the `UserManager` class found in `UserManager.php`. This class is responsible for user registration and sending notifications, but it has several "code smells" and does not follow modern development best practices.
 
 Your task is to refactor this class to improve its structure, readability, maintainability, and adherence to **SOLID** principles (especially the **Single Responsibility Principle**). You must also address security concerns and demonstrate how you would make the code testable.
 
@@ -20,7 +20,7 @@ No specific framework (like a full Laravel installation) is strictly required to
 
 ## 3. Overview
 
-The provided class, `UserManager`, handles user registration by saving user data to a file (simulating a database for simplicity) and then sending a welcome email and an admin notification. You will be given the PHP code for this class.
+The `UserManager` class handles user registration by saving user data to a file (simulating a database for simplicity) and then sending a welcome email and an admin notification. The class contains multiple code smells and security vulnerabilities that need to be addressed.
 
 ## 4. Your Task
 
